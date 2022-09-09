@@ -55,5 +55,5 @@ Check [here](https://github.com/iProzd/deepmd-kit/blob/devel/doc/data/system.md)
 
 ## References
 
-**[1]** Zhang, Linfeng, et al. "Phase diagram of a deep potential water model." Physical review letters 126.23 (2021): 236001.
+**[1]** Zhang, Linfeng, et al. "Phase diagram of a deep potential water model." Physical review letters 126.23 (2021): 236001. \
 **[2]** Zhang, Yuzhi, et al. "DP-GEN: A concurrent learning platform for the generation of reliable deep learning based potential energy models." Computer Physics Communications 253 (2020): 107206.
