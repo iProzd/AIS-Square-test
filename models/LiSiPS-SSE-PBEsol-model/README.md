@@ -15,7 +15,7 @@ Training data can be download from here（加个链接）.
 1. Download and install LAMMPS: https://docs.lammps.org/Manual.html
 2. Download and install DeePMD-kit: https://github.com/deepmodeling/deepmd-kit
 3. Prepare input data for LAMMPS
-4. （Download model `graph.pb`本行待定）
+4. Download the model
 5. Run MD with LAMMPS: https://github.com/deepmodeling/deepmd-kit/blob/master/doc/third-party/lammps.md
 
 ## References
