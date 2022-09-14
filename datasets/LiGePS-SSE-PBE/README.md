@@ -8,7 +8,10 @@ This is the PBE dataset of $Li_{10}GeP_2S_{12}$ used in [1].
 The dataset is generated with DP-GEN [2,3],  a concurrent learning scheme that generates the training dataset iteratively.
 
 Using the Deep Potential Generator, a minimal set of training data is generated via an efficient and suf-ficient sampling process, thereby guaranteeing a reliable PES model produced by training. The flowchart of DP-GEN iteration is shown in Fig. 2.  
-![](figs/Fig2.png)  
+<p align="center">
+<img src="https://github.com/Angel-Jia/AIS-Square-test/blob/main/datasets/LiGePS-SSE-PBE/figs/Fig2.png" width=70% />
+</p>  
+
 In the exploration step, model deviations are evaluated using the ensemble of trained models and new configurations are picked according to the maximum
 deviation of forces ( $\sigma^{max}_f$ ), defined as:
 $$\sigma_{f}^{\max}=\max_{i}\sqrt{\left\langle\left\|f_{i}-\left\langle f_{i}\right\rangle\right\|^{2}\right\rangle}$$
