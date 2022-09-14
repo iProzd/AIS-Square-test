@@ -10,13 +10,13 @@ The sizes of the embedding and fitting nets are set to (25, 50, 100) and (240, 2
 Four models are trained to construct the model ensemble. Using the same architecture and the same training data set, they only differ in the random seeds for initializing model parameters.  
 After the DP-GEN iterations being converged, the production models are trained with the cut-off radius set to 9 Å and training steps set to $1.6 × 10^7$. In all training tasks, the Adam stochastic gradient descent method is used with default hyper parameter settings provided by the TensorFlow package. **[3]**  
 More details can be found in **[1]**.  
-Training data can be download from here（加个链接）.
+
 
 ## Use model
 1. Download and install LAMMPS: https://docs.lammps.org/Manual.html
 2. Download and install DeePMD-kit: https://github.com/deepmodeling/deepmd-kit
 3. Prepare input data for LAMMPS
-4. Download the model
+4. Download the [model](https://aisquare.oss-us-east-1.aliyuncs.com/AIS-Square/models/AlMgCu-full-consentration-model/graph.pb)
 5. Run MD with LAMMPS: https://github.com/deepmodeling/deepmd-kit/blob/master/doc/third-party/lammps.md
 
 ## References

@@ -11,13 +11,13 @@ The visited states can be roughly classified into three groups: the low pressure
 DPMD samples almost uniformly the thermodynamic domains of the three groups. The deviation in the predicted forces within a set of representative DP models is used to label configurations for which new DFT calculations of the energy, forces, and virial are necessary. The new data are added to the training dataset and serve to refine the representative DP models entering the next iteration.  
 After 36 concurrent learning iterations the error in the force is satisfactorily reduced and the procedure ends. The accumulated number of snapshots in the training dataset is 31058, a tiny fraction (∼ 0.05%) of the configurations visited by DPMD. At this point, the relative energies of configurations within each phase are well described, but deviations from DFT still affect the averages. To reduce these deviations below a small threshold, 3519 additional training configurations are necessary.  
 More details can be found in **[1]**.  
-Training data can be download from here（加个链接）.
+
 
 ## Use model
 1. Download and install LAMMPS: https://docs.lammps.org/Manual.html
 2. Download and install DeePMD-kit: https://github.com/deepmodeling/deepmd-kit
 3. Prepare input data for LAMMPS
-4. Download the model
+4. Download the [model](https://aisquare.oss-us-east-1.aliyuncs.com/AIS-Square/models/H2O-Phase-Diagram-model/frozen_model_compressed.pb)
 5. Run MD with LAMMPS: https://github.com/deepmodeling/deepmd-kit/blob/master/doc/third-party/lammps.md
 
 ## References

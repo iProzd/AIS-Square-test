@@ -8,14 +8,13 @@ The reactive MD simulation with this DP model revealed the pyrolysis mechanism o
 ## Training
 The DP model was trained based on the final dataset. To guarantee the accuracy of the model, the batch number of the training process was set to 4,000,000.  
 More details can be found in **[1]**.  
-Training data can be download from here（加个链接）.
 
 
 ## Use model
 1. Download and install LAMMPS: https://docs.lammps.org/Manual.html
 2. Download and install DeePMD-kit: https://github.com/deepmodeling/deepmd-kit
 3. Prepare input data for LAMMPS
-4. Download the model
+4. Download the [model](https://aisquare.oss-us-east-1.aliyuncs.com/AIS-Square/models/C12H26-dodecane-model/dodecane_model_v1.pb)
 5. Run MD with LAMMPS: https://github.com/deepmodeling/deepmd-kit/blob/master/doc/third-party/lammps.md
 
 ## References

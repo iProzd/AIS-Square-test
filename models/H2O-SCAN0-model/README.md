@@ -8,13 +8,13 @@ calculations. **[1]**
 To construct an accurate and transferable SCAN0 path-integral deep potential model with a minimal number of the expensive SCAN0 DFT data, an active machine learning procedure called deep potential generator (DP-GEN)**[2,3]** was adopted.  
 One converged deep potential model was employed to conduct the production run, which was trained by using 7349 SCAN0 DFT configurations. Note that the number of training configurations adopted here is not the minimum number of configurations needed for convergence because, in the first few iterations, configurations that have ζ > 0.05 eV/Å were also added to the training data set. These "extra" configurations are not essential for the convergence and will not affect the simulation results.  
 More details can be found in **[1]**.  
-Training data can be download from here（加个链接）.
+
 
 ## Use model
 1. Download and install LAMMPS: https://docs.lammps.org/Manual.html
 2. Download and install DeePMD-kit: https://github.com/deepmodeling/deepmd-kit
 3. Prepare input data for LAMMPS
-4. Download the model
+4. Download the [model](https://aisquare.oss-us-east-1.aliyuncs.com/AIS-Square/models/H2O-SCAN0-model/scan0pi.pb)
 5. Run MD with LAMMPS: https://github.com/deepmodeling/deepmd-kit/blob/master/doc/third-party/lammps.md
 
 ## References

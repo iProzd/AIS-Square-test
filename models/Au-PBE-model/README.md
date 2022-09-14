@@ -8,17 +8,17 @@ The reported surface properties in this paper are blind to the potential modelin
 The DP-PBE model is constructed using a smooth edition of the Deep Potential model **[2]**. The DeePMD-kit package is used for training. In each iteration, four models are trained simultaneously using the same data set, with the only difference being the random seeds employed to initialize the model parameters. The sizes of the embedding and fitting nets are set to (25, 50, 100) and (240, 240, 240), respectively. The cut-off radius is set to 6 Å. The Adam stochastic gradient descent method55 with the default hyperparameter settings provided by the TensorFlow package56 was used to train the DP models.  
 The starting and final learning rate was $1 × 10^{−3}$ and $5 × 10^{−8}$, respectively. In each DP-GEN **[3,4]** iteration the DP model is trained with $4.0 × 10^5$ steps. After the DP-GEN iterations converge, the final productive models are trained with $8.0 × 10^6$ steps.  
 More details can be found in **[1]**.  
-Training data can be download from here（加个链接）.
+
 
 ## Transfer learning
 In the training step, the same training strategy as that used in the initialization stage of the transfer learning is adopted.  
-Training data can be download from here（加个链接）.
+
 
 ## Use model
 1. Download and install LAMMPS: https://docs.lammps.org/Manual.html
 2. Download and install DeePMD-kit: https://github.com/deepmodeling/deepmd-kit
 3. Prepare input data for LAMMPS
-4. Download the model
+4. Download the [model](https://aisquare.oss-us-east-1.aliyuncs.com/AIS-Square/models/Au-PBE-model/frozen_model.pb)
 5. Run MD with LAMMPS: https://github.com/deepmodeling/deepmd-kit/blob/master/doc/third-party/lammps.md
 
 ## References
