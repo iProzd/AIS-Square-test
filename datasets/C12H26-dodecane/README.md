@@ -25,6 +25,8 @@ In other words, the dataset at this point should cover the chemical space we nee
 **Finalization.** In this section, a DP model was trained (in the Training II step) based on the final dataset. To guarantee the accuracy of the model, the batch number of the training process was set to 4,000,000 while other parameters were as same as those in the Training I step.  
 All three sections were integrated into the DP-GEN software 45 and are fully automatic and user-friendly.  
 
+https://aisquare.oss-us-east-1.aliyuncs.com/AIS-Square/datasets/C12H26-dodecane/dodecane_v1.1.zip
+
 ## Data Format
 
 The directory tree is as follows:

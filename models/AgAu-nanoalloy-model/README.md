@@ -18,7 +18,7 @@ In the training step, the same training strategy as that used in the initializat
 1. Download and install LAMMPS: https://docs.lammps.org/Manual.html
 2. Download and install DeePMD-kit: https://github.com/deepmodeling/deepmd-kit
 3. Prepare input data for LAMMPS
-4. Download the [model](https://aisquare.oss-us-east-1.aliyuncs.com/AIS-Square/models/AgAu-nanoalloy-model/frozen_model.pb)
+4. Download the model
 5. Run MD with LAMMPS: https://github.com/deepmodeling/deepmd-kit/blob/master/doc/third-party/lammps.md
 
 ## References
