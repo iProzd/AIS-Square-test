@@ -9,11 +9,12 @@ The dataset is generated with DP-GEN [2,3],  a concurrent learning scheme that g
 
 Using the Deep Potential Generator, a minimal set of training data is generated via an efficient and suf-ficient sampling proWWcess, thereby guaranteeing a reliable PES model produced by training. The flowchart of DP-GEN iteration is shown in Fig. 2.  
 <p align="center">
-<img src="https://github.com/Angel-Jia/AIS-Square-test/blob/main/datasets/LiGePS-SSE-PBE/figs/Fig2.png" width=70% />
-</p>  
+<img src="https://github.com/Angel-Jia/AIS-Square-test/blob/main/datasets/LiGePS-SSE-PBE/figs/Fig2.png" width=80% />
+</p>    
  
 In the exploration step, model deviations are evaluated using the ensemble of trained models and new configurations are picked according to the maximum
 deviation of forces ( $\sigma^{max}_f$ ), defined as:
+
 $$\sigma_{f}^{\max}=\max_{i}\sqrt{\left\langle\left\|f_{i}-\left\langle f_{i}\right\rangle\right\|^{2}\right\rangle}$$
 where $f_i$ is the force acting on atom $i$, and $\langle ... \rangle$ denotes the average of the DP model ensemble. Configurations with small force deviations ( $\sigma^{max}_f < \sigma_{low}$, yellow square in Fig. 2(c)) are effectively covered by the training dataset with high probability. On the contrary, excessive force deviation ( $\sigma^{max}_f > \sigma_{high}$, red cross in Fig. 2(c)) implies that the configuration may diverge from the relevant physical trajectories. Therefore none of them are picked. Only configurations whose $\sigma^{max}_f$ fall between a predetermined window are labeled as candidates (blue circles in Fig. 2(c)). In practice, after running several MD trajectories, the selection criterion usually produces hundreds or thousands of candidates. A small fraction of them is representative enough to improve the model, and therefore a cutoff number ( $N^{max}_{label}$ ) is set to restrict the number of candidates. These candidates are labeled and added to the original dataset for the next training. The labeling and training stages are rather standard, while there is large flexibility for the sampling strategy on how to explore the relevant configuration space in each iteration. According to Ref.**[4]**, a practical rule of thumb is to set $\sigma_{low}$ slightly larger than the training error achieved by the model,and set $\sigma_{high}$ 0.1-0.3 eV/Å higher than $\sigma_{low}$. In this paper, $\sigma_{low}$ and $\sigma_{high}$ are set to 0.12 and 0.25 eV/Å, respectively.  
 
