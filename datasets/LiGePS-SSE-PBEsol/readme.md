@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This is the PBEsol dataset of $Li_{10}GeP_2S_{12}$ used in [1]. 

@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 A DP model for NaCl. **[1]**  
 the DPs also provide results with accuracy that is comparable to that of AIMD and efficiency that is similar to that of empirical potentials. The partial radial distribution functions and angle distribution functions predicted using the DPs are in close agreement with those derived from AIMD. The estimated densities, self-diffusion coefficients, shear viscosities, and electrical conductivities also matched well with the AIMD and experimental data.  

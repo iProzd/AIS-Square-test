@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 A DP-PBE model for $Li_{10}SnP_2S_{12}$. **[1]**  
 

@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This is the dataset of water and ice used in. **[1,2]**  The PBE0+TS **[3,4]** functional is adopted in all cases.

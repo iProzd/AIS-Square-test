@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This is the dataset of Tungsten DFT data for training DeepMD model.

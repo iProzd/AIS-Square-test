@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 A DP-PBE model for Cu. **[1]**  
 

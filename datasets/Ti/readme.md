@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This is the data set used in [1], for DFT data of Ti organized with DeepMD structure.

@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 A DP-PBE model for n-dodecane. **[1]**  
 The reactive MD simulation with this DP model revealed the pyrolysis mechanism of n-dodecane in detail, and the simulation results are in good agreement with the experimental measurements. In addition, this model shows excellent transferability to different long-chain alkanes.

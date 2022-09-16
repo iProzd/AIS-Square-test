@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 This dataset consists of 34577 DFT samples in DeePMD format used in **[1]**, covering the phase diagram of water with T 0\~2400K P 0\~50GPa, which is generated during DPGEN **[2]** procedure.
 

@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 Deep potential long-range (DPLR) model for water. **[1]**  
 Previous deep potential (DP) models lack explicit long-range interactions and fail to describe properties that derive from the Coulombic tail of the forces. To overcome this limitation we extend the DP model by approximating the long-range electrostatic interaction between ions (nuclei+core electrons) and valence electrons with that of distributions of spherical Gaussian charges located at ionic and electronic sites. The latter are rigorously defined in terms of the centers of the maximally localized Wannier distributions, whose dependence on the local atomic environment is modeled accurately by a deep neural network.

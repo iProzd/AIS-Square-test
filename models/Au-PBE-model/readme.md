@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 A DP-PBE model for Au. **[1]**  
 The reported surface properties in this paper are blind to the potential modeling in the sense that none of the surface configurations is explicitly included in the training database, therefore, the reported potential is expected to have a strong ability of generalization to a wide range of properties and to play a key role in the investigation of nanostructured Ag-Au evolution, where the accurate descriptions of free surfaces are necessary.

@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This is the PBE dataset of $Li_{10}SnP_2S_{12}$ used in [1]. 

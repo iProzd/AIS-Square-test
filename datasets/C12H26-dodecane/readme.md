@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This is the dataset of n-dodecane in **[1]**. 

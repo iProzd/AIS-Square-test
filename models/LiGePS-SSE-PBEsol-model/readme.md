@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 A DP-PBEsol model for $Li_{10}GeP_2S_{12}$. **[1]**  
 

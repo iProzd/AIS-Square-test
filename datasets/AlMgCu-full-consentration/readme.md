@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 A Deep Potential model and data sets for the Al-Cu-Mg alloy in the full concentration space.

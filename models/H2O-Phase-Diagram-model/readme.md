@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 Water model that reproduces accurately the potential energy surface of the SCAN approximation of density functional theory, from low temperature and pressure to about 2400 K and 50 GPa, excluding the vapor stability region. **[1]**  
 Water phase diagram is predicted using molecular dynamics and satisfactory overall agreement with experimental results is obtained.

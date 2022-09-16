@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This is the dataset of Ag–Au nanoalloys DFT data for training a long range DeepMD model in [1]. 

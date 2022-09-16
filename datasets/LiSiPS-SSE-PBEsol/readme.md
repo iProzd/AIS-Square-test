@@ -1,5 +1,3 @@
-# README
-
 ## Introduction
 
 This is the PBsol dataset of $Li_{10}SiP_2S_{12}$ used in [1]. 
