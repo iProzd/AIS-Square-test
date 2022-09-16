@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This dataset cnontains DFT samples in DeepMD format used in [1], for ferroelectric $$\alpha-In_2Se_3$$.
+This dataset cnontains DFT samples in DeepMD format used in [1], for ferroelectric $\alpha-In_2Se_3$.
 
 ## Generation Approach
 
