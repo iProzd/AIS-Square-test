@@ -7,7 +7,7 @@ The dataset is generated with DP-GEN [2,3],  a concurrent learning scheme that g
 
 Using the Deep Potential Generator, a minimal set of training data is generated via an efficient and suf-ficient sampling proWWcess, thereby guaranteeing a reliable PES model produced by training. The flowchart of DP-GEN iteration is shown in Fig. 2.  
 <p align="center">
-<img src="https://github.com/Angel-Jia/AIS-Square-test/blob/main/datasets/LiGePS-SSE-PBE/figs/Fig2.png" width=80% />
+<img src="https://github.com/iProzd/AIS-Square-test/blob/main/datasets/LiGePS-SSE-PBE/figs/Fig2.png" width=80% />
 </p>    
  
 In the exploration step, model deviations are evaluated using the ensemble of trained models and new configurations are picked according to the maximum
