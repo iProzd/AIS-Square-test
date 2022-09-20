@@ -1,4 +1,4 @@
-# dflow-MP_cgcnn_jupyter
+# dflow-MP_cgcnn_jupyter4
 This is a simple introduction to dflow, materials screening and machine learning.
 The target of this work flow is to combine machine learning and high-throughput screening for materials discovery. 
 
