@@ -5,7 +5,7 @@ This is the dataset of n-dodecane in **[1]**.
 ## Generation Approach
 As shown in Figure 1, the whole workflow for the construction of DP model is divided into 3 modules: Initialization, Concurrent Learning, and Finalization. An initial dataset is obtained in the Initialization module to kick-off the Concurrent learning section. In the Concurrent learning section, the chemical space of the reaction is gradually explored as the reaction proceeds. When the chemical space is sufficiently explored, a final dataset will be obtained and the final DP can be trained based on it. Taking the n-dodecane pyrolysis as an example, details of these modules are introduced below.  
 <p align="center">
-<img src="https://github.com/iProzd/AIS-Square-test/blob/main/datasets/C12H26-dodecane/figs/Fig1.png" width=70% />
+<img src="https://github.com/iProzd/AIS-Square-test/blob/main/datasets/C12H26-dodecane/figs/Fig1.png?raw=true" width=70% />
 </p>  
 
 **Initialization.** The main purpose of the initialization module is to create an initial dataset for the concurrent learning module. It roughly contains 3 steps:  
