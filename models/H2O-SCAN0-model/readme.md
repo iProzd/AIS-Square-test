@@ -1,5 +1,5 @@
 ## Introduction
-4Water model trained with data obtained from SCAN0 DFT
+Water model trained with data obtained from SCAN0 DFT
 calculations. **[1]**  
 
 ## Training
