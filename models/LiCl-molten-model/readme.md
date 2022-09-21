@@ -1,6 +1,6 @@
 ## Introduction
 A DP model for LiCl. **[1]**  
-the DPs also provide results with accuracy that is comparable to that of AIMD and efficiency that is similar to that of empirical potentials. The partial radial distribution functions and angle distribution functions predicted using the DPs are in close agreement with those derived from AIMD. The estimated densities, self-diffusion coefficients, shear viscosities, and electrical conductivities also matched well with the AIMD and experimental data.  
+The DPs also provide results with accuracy that is comparable to that of AIMD and efficiency that is similar to that of empirical potentials. The partial radial distribution functions and angle distribution functions predicted using the DPs are in close agreement with those derived from AIMD. The estimated densities, self-diffusion coefficients, shear viscosities, and electrical conductivities also matched well with the AIMD and experimental data.  
 
 ## Training
 The sizes of the embedding and fitting neural network were set to be {2,550,100} and {240,240,240}, respectively. The smooth cutoff parameter ( $r_{cs}$ ) is chosen to 6.8 Å, and the cut-off radius ( $r_c$ ) was set to 7 Å. For the tunable prefactors in the loss functions, $p^{start}_ ε$ , $p^{start}_f$ , $p^{limit}_ε$ , and $p^{limit}_f$ are 0.02, 1000, 1, and 1, respectively.  
