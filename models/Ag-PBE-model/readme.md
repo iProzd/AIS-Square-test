@@ -19,7 +19,7 @@ In the training step, the same training strategy as that used in the initializat
 
 ## References
 **[1]** Wang, YiNan, et al. "A generalizable machine learning potential of Ag–Au nanoalloys and its application to surface reconstruction, segregation and diffusion." Modelling and Simulation in Materials Science and Engineering 30.2 (2021): 025003.  
-**[2]** Zhang, Linfeng, et al. "End-to-end symmetry preserving inter-atomic potential energy model for finite and extended systems." Advances in Neural Information Processing Systems 31 (2018).
+**[2]** Zhang, Linfeng, et al. "End-to-end symmetry preserving inter-atomic potential energy model for finite and extended systems." Advances in Neural Information Processing Systems 31 (2018).  
 **[3]** Zhang, Linfeng, et al. "Active learning of uniformly accurate interatomic potentials for materials simulation." Physical Review Materials 3.2 (2019): 023804.  
 **[4]** Zhang, Yuzhi, et al. "DP-GEN: A concurrent learning platform for the generation of reliable deep learning based potential energy models." Computer Physics Communications 253 (2020): 107206.
 

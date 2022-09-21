@@ -19,7 +19,7 @@ More details can be found in **[1]**.
 5. Run MD with LAMMPS: https://github.com/deepmodeling/deepmd-kit/blob/master/doc/third-party/lammps.md
 
 ## References
-**[1]** Zhang, Linfeng, et al. "Phase diagram of a deep potential water model." Physical review letters 126.23 (2021): 236001.
+**[1]** Zhang, Linfeng, et al. "Phase diagram of a deep potential water model." Physical review letters 126.23 (2021): 236001.  
 **[2]** Zhang, Linfeng, et al. "Active learning of uniformly accurate interatomic potentials for materials simulation." Physical Review Materials 3.2 (2019): 023804.  
 **[3]** Zhang, Yuzhi, et al. "DP-GEN: A concurrent learning platform for the generation of reliable deep learning based potential energy models." Computer Physics Communications 253 (2020): 107206.
 
