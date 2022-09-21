@@ -13,14 +13,14 @@ The whole workflow process is shown as follows:
 
 files in 1_gengjf/ directory：<br />1_gengjf/<br />├── electrolyte.json<br />├── ethane_to_compare.gjf<br />└── wf_gengjf.py
 
-electrolyte.json中的"smi":["CC"],字段提供了所需要转换的SMILEs结构，此处以乙烷”CC”为例<br />The filed  "SMI" : [CC] in _electrolyte.json_ provides the SMILEs of the molecule to be converted. Here, "CC" (the SMILEs representation of ethane)is taken as an example
+The filed  "SMI" : [CC] in _electrolyte.json_ provides the SMILEs of the molecule to be converted. Here, "CC" (the SMILEs representation of ethane)is taken as an example
 
 
 change the executor in _wf_gengjf.py_ to your available maehine,  in whihc _openbabel_ model is relied，execute:
 ```
 python wf_gengjf.py
 ```
-最终示例文件将ethane.gjf下载回本地，该文件除坐标外的内容应与ethane_to_compare.gjf相似。<br />Finally one file called ethane.gjf would be generated, and the contents of this file should be the same as ethane_ to_ Compare.gjf except for the Cartesian coordinates
+Finally one file called ethane.gjf would be generated, and the contents of this file should be the same as ethane_ to_ Compare.gjf except for the Cartesian coordinates
 
 <a name="OUi1b"></a>
 ## step2 DFT calculation
