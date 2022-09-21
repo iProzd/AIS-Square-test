@@ -1,5 +1,6 @@
 ## Introduction
 An accurate PES model for the Al-Cu-Mg system. **[1]**
+
 This DP model gives predictions consistent with first-principles calculations for various binary and ternary systems on their fundamental energetic and mechanical properties, including formation energy, equilibrium volume, equation of state, interstitial energy, vacancy and surface formation energy, as well as elastic moduli. Extensive benchmark shows that the DP model is ready and will be useful for atomistic modeling of the Al-Cu-Mg system within the full range of concentration.
 
 ## Training
