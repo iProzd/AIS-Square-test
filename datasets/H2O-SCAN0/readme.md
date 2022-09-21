@@ -1,5 +1,5 @@
 ## Introduction
-This dataset cnontains DFT samples in DeepMD format used in **[1]**, for ferroelectric $\alpha-In_2Se_3$.
+This dataset cnontains DFT samples in DeepMD format used in **[1]** for water.
 
 ## Generation Approach
 To construct an accurate and transferable SCAN0 path-integral deep potential model with a minimal number of the expensive SCAN0 DFT data, an active machine learning procedure called deep potential generator (DP-GEN) **[2]** was adopted. Considering that the molecular configurations predicted by SCAN and SCAN0 are close to each other, 900 configurations were uniformly extracted from the 64-molecule 11 ps SCAN PI-AIMD trajectory reported in ref **[3]**. The total potential energy E and ionic forces Fi of each atom i of these configurations were calculated by using Quantum ESPRESSO (QE)**[4]** with the SCAN0 XC functional. The Hamann− Schlüter−Chiang−Vanderbilt (HSCV) pseudopotentials **[5,6]** with an energy cutoff of 150 Ry were employed. The obtained E and Fi together with atomic positions were adopted as the initial training data.
