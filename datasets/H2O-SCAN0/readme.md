@@ -1,15 +1,11 @@
 ## Introduction
-
-This dataset cnontains DFT samples in DeepMD format used in [1], for ferroelectric $\alpha-In_2Se_3$.
+This dataset cnontains DFT samples in DeepMD format used in **[1]**, for ferroelectric $\alpha-In_2Se_3$.
 
 ## Generation Approach
-
-To construct an accurate and transferable SCAN0 path-integral deep potential model with a minimal number of the expensive SCAN0 DFT data, an active machine learning procedure called deep potential generator (DP-GEN) [2] was adopted. Considering that the molecular configurations predicted by SCAN and SCAN0 are close to each other, 900 configurations were uniformly extracted from the 64-molecule 11 ps SCAN PI-AIMD trajectory reported in ref [3]. The total potential energy E and ionic forces Fi of each atom i of these configurations were calculated by using Quantum ESPRESSO (QE)[4] with the SCAN0 XC functional. The Hamann− Schlüter−Chiang−Vanderbilt (HSCV) pseudopotentials [5,6] with an energy cutoff of 150 Ry were employed. The obtained E and Fi together with atomic positions were adopted as the initial training data.
-
+To construct an accurate and transferable SCAN0 path-integral deep potential model with a minimal number of the expensive SCAN0 DFT data, an active machine learning procedure called deep potential generator (DP-GEN) **[2]** was adopted. Considering that the molecular configurations predicted by SCAN and SCAN0 are close to each other, 900 configurations were uniformly extracted from the 64-molecule 11 ps SCAN PI-AIMD trajectory reported in ref **[3]**. The total potential energy E and ionic forces Fi of each atom i of these configurations were calculated by using Quantum ESPRESSO (QE)**[4]** with the SCAN0 XC functional. The Hamann− Schlüter−Chiang−Vanderbilt (HSCV) pseudopotentials **[5,6]** with an energy cutoff of 150 Ry were employed. The obtained E and Fi together with atomic positions were adopted as the initial training data.
 
 
 ## Data Format
-
 The directory tree is as follows:
 
 ```
@@ -50,15 +46,14 @@ Check [here](https://github.com/deepmodeling/deepmd-kit/blob/master/doc/data/sys
 
 
 ## References
+**[1]** Zhang, Chunyi, et al. "Modeling liquid water by climbing up Jacob’s ladder in density functional theory facilitated by using deep neural network potentials." *The Journal of Physical Chemistry B* 125.41 (2021): 11444-11456.
 
-[1] Zhang, Chunyi, et al. "Modeling liquid water by climbing up Jacob’s ladder in density functional theory facilitated by using deep neural network potentials." *The Journal of Physical Chemistry B* 125.41 (2021): 11444-11456.
+**[2]** Zhang, Linfeng, et al. "Active learning of uniformly accurate interatomic potentials for materials simulation." *Physical Review Materials* 3.2 (2019): 023804.
 
-[2] Zhang, Linfeng, et al. "Active learning of uniformly accurate interatomic potentials for materials simulation." *Physical Review Materials* 3.2 (2019): 023804.
+**[3]** Bergmann, Uwe, et al. "Isotope effects in liquid water probed by x-ray Raman spectroscopy." *Physical Review B* 76.2 (2007): 024202.
 
-[3] Bergmann, Uwe, et al. "Isotope effects in liquid water probed by x-ray Raman spectroscopy." *Physical Review B* 76.2 (2007): 024202.
+**[4]** Giannozzi, Paolo, et al. "Advanced capabilities for materials modelling with Quantum ESPRESSO." *Journal of physics: Condensed matter* 29.46 (2017): 465901.
 
-[4] Giannozzi, Paolo, et al. "Advanced capabilities for materials modelling with Quantum ESPRESSO." *Journal of physics: Condensed matter* 29.46 (2017): 465901.
+**[5]** Hamann, D. R., M. Schlüter, and C. Chiang. "Norm-conserving pseudopotentials." *Physical Review Letters* 43.20 (1979): 1494.
 
-[5] Hamann, D. R., M. Schlüter, and C. Chiang. "Norm-conserving pseudopotentials." *Physical Review Letters* 43.20 (1979): 1494.
-
-[6] Vanderbilt, David. "Optimally smooth norm-conserving pseudopotentials." *Physical Review B* 32.12 (1985): 8412.
+**[6]** Vanderbilt, David. "Optimally smooth norm-conserving pseudopotentials." *Physical Review B* 32.12 (1985): 8412.

@@ -1,9 +1,9 @@
 ## Introduction
-
 This is the dataset of water and ice used in. **[1,2]**  The PBE0+TS **[3,4]** functional is adopted in all cases.
 
 ## Generation Approach
 The data used for training and/or testing are extracted from the AIMD simulations summarized in Tab. IV. The training datasets include 95000 snapshots (from 105000 total snapshots) randomly selected along the liquid water trajectory, 19500 snapshots (from 24000 total snapshots) randomly selected along the ice (b) trajectory, 9500 snapshots (from 12000 total snapshots) randomly selected along the ice (c) trajectory, and 9500 snapshots (from 12000 total snapshots) randomly selected along the ice (d) trajectory. The remaining snapshots in the database are used for testing purposes.
+
 TABLE IV: Equilibrated AIMD trajectories (traj.) for liquid water (LW) and ice Ih.
 | System |  PI/classical | N  | P[bar] | T[K]  | traj. length [ps] |
 | ------ | ------------- | -  | ------ | ----- | ----------------- |
@@ -13,7 +13,6 @@ TABLE IV: Equilibrated AIMD trajectories (traj.) for liquid water (LW) and ice I
 | ice(d) |   classical   | 96 |  2.13k |  238  |        6.0        |
 
 ## Data Format
-
 The directory tree is as follows:
 
 ```
@@ -52,9 +51,12 @@ Check [here](https://github.com/deepmodeling/deepmd-kit/blob/master/doc/data/sys
 
 
 ## References
-**[1]** Zhang, Linfeng, et al. "Deep potential molecular dynamics: a scalable model with the accuracy of quantum mechanics." Physical review letters 120.14 (2018): 143001.  
-**[2]** Ko, Hsin-Yu, et al. "Isotope effects in liquid water via deep potential molecular dynamics." Molecular Physics 117.22 (2019): 3269-3281.  
-**[3]** Adamo, Carlo, and Vincenzo Barone. "Toward reliable density functional methods without adjustable parameters: The PBE0 model." The Journal of chemical physics 110.13 (1999): 6158-6170.  
+**[1]** Zhang, Linfeng, et al. "Deep potential molecular dynamics: a scalable model with the accuracy of quantum mechanics." Physical review letters 120.14 (2018): 143001.
+
+**[2]** Ko, Hsin-Yu, et al. "Isotope effects in liquid water via deep potential molecular dynamics." Molecular Physics 117.22 (2019): 3269-3281.
+
+**[3]** Adamo, Carlo, and Vincenzo Barone. "Toward reliable density functional methods without adjustable parameters: The PBE0 model." The Journal of chemical physics 110.13 (1999): 6158-6170.
+
 **[4]** Tkatchenko, Alexandre, and Matthias Scheffler. "Accurate molecular van der Waals interactions from ground-state electron density and free-atom reference data." Physical review letters 102.7 (2009): 073005.  
 
 
