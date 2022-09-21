@@ -10,7 +10,7 @@ This data set is generated with DPGEN **[2,3]**,  a concurrent learning scheme t
 
 **Labeling.** The labels of the candidate configurations, i.e. the energy, force, and virial tensor, are computed by DFT. The DFT calculations were conducted using the Vienna ab initio simulation package (VASP) [6, 7], with the generalized gradient approximation and the Perdew–Burke–Ernzerhof (PBE) **[8]** xc functional. The projector-augmented-wave (PAW) method [9, 10] is used, and the energy cutoff of the planewave basis set is set to 650 eV. The Brillouin zone is sampled by the Monkhorst-Pack method [11] with a grid spacing of 0.1 $Å{−1}$. The convergence criterion for the energy is $1 × 10^{−6}$ eV.
 
-**Training.** The DP–PBE model is constructed using a smooth edition of the DP model **[59]**. The DeePMD-kit package **[78]** is used for training
+**Training.** The DP–PBE model is constructed using a smooth edition of the DP model **[12]**. The DeePMD-kit package **[5]** is used for training
 
 Details about each step is refer to **[1]**.
 
@@ -79,3 +79,5 @@ Check [here](https://github.com/deepmodeling/deepmd-kit/blob/master/doc/data/sys
 **[10]** Kresse, Georg, and Daniel Joubert. "From ultrasoft pseudopotentials to the projector augmented-wave method." *Physical review b* 59.3 (1999): 1758.
 
 **[11]** Monkhorst, Hendrik J., and James D. Pack. "Special points for Brillouin-zone integrations." *Physical review B* 13.12 (1976): 5188.
+
+**[12]** Zhang, Linfeng, et al. "End-to-end symmetry preserving inter-atomic potential energy model for finite and extended systems." Advances in Neural Information Processing Systems 31 (2018).
