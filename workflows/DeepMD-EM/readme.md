@@ -11,9 +11,6 @@ To close this gap, here we developed a workflow (based on dflow) to use realisti
 
 The code is still in its early stage and heavily under development. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -24,9 +21,6 @@ To run the workflow, please install the following packages:
 - [lammps-dp](https://anaconda.org/deepmodeling/lammps-dp)
 - [phononpy](https://github.com/phonopy/phonopy)
 - [phonoLAMMPS](https://pypi.org/project/phonoLAMMPS/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -74,18 +68,12 @@ pip install -e DeepMD-EM
 ```
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 To run the workflow, please check the [tutorials](https://github.com/zezhong-zhang/DeepMD-EM/tree/master/tutorial) for the MD simulation, phonon calculation and the scattering simulation.
 
 _The proper [Documentation](https://deepmd-em.readthedocs.io/en/latest/) is under construction_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -105,9 +93,6 @@ _The proper [Documentation](https://deepmd-em.readthedocs.io/en/latest/) is unde
 
 See the [open issues](https://github.com/zezhong-zhang/DeepMD-EM/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -123,17 +108,11 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the GPLv3 License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -143,18 +122,12 @@ Zezhong Zhang - zezhong.zhang@uantwerpen.be
 
 Project Link: [https://github.com/zezhong-zhang/DeepMD-EM](https://github.com/zezhong-zhang/DeepMD-EM)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * Thanks to Dr. Ivan Lobato, Prof. Sandra Van Aert and Prof. Dirk Lamoen for their support and suggestions.
 * Readme page based on [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
