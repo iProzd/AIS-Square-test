@@ -1,0 +1,12 @@
+Link: https://aisquare.oss-cn-zhangjiakou.aliyuncs.com/data/models/c4e1e188-f2bc-416b-bc77-7ad528cf9838
+USLink: https://aisquare.oss-cn-zhangjiakou.aliyuncs.com/data/models/c4e1e188-f2bc-416b-bc77-7ad528cf9838
+CNLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/data/models/c4e1e188-f2bc-416b-bc77-7ad528cf9838
+Author: mo
+Reference:
+    - models/KCl-molten-model
+    - datasets/H2O-DPLR
+ImageLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/AIS-Square/models/LJH_MO/WX20221020-104523@2x.png
+ImageName: WX20221020-104523@2x.png
+LinkFileName: ""
+readmename: test.md
+licence: LGPL-3.0
