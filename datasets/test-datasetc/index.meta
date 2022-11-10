@@ -1,0 +1,11 @@
+Link: https://aisquare.oss-us-east-1.aliyuncs.com/data/datasets/ae5dd090-e686-4ace-ae45-4f97c3d56557
+USLink: https://aisquare.oss-us-east-1.aliyuncs.com/data/datasets/ae5dd090-e686-4ace-ae45-4f97c3d56557
+CNLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/data/datasets/ae5dd090-e686-4ace-ae45-4f97c3d56557
+Author: sdas
+Reference:
+    - workflows/deepks-flow
+ImageLink: ""
+ImageName: ""
+LinkFileName: KCl-molten-model.pb
+readmename: readme.md
+licence: LGPL-3.0
