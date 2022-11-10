@@ -1,0 +1,11 @@
+Link: https://aisquare.oss-us-east-1.aliyuncs.com/data/models/126124ca-3db9-41f6-9af7-93d04f3e1c95
+USLink: https://aisquare.oss-us-east-1.aliyuncs.com/data/models/126124ca-3db9-41f6-9af7-93d04f3e1c95
+CNLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/data/models/126124ca-3db9-41f6-9af7-93d04f3e1c95
+Author: dsa,ggf
+Reference:
+    - workflows/test-flowe
+ImageLink: ""
+ImageName: ""
+LinkFileName: ali-cpu.json
+readmename: readme.md
+licence: LGPL-3.0
