@@ -1,0 +1,11 @@
+Link: https://aisquare.oss-us-east-1.aliyuncs.com/data/models/f88cdd1a-7291-443e-a41a-87b952f420ae
+USLink: https://aisquare.oss-us-east-1.aliyuncs.com/data/models/f88cdd1a-7291-443e-a41a-87b952f420ae
+CNLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/data/models/f88cdd1a-7291-443e-a41a-87b952f420ae
+Author: das
+Reference:
+    - models/H2O-SCAN0-model
+ImageLink: ""
+ImageName: ""
+LinkFileName: Au-PBE-model.pb
+readmename: readme.md
+licence: LGPL-3.0
