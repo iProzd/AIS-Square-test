@@ -1,10 +1,11 @@
-Link: https://aisquare.oss-cn-zhangjiakou.aliyuncs.com/data/models/277a2512-4c3f-49f5-9007-8f939124be51
-USLink: https://aisquare.oss-cn-zhangjiakou.aliyuncs.com/data/models/277a2512-4c3f-49f5-9007-8f939124be51
-CNLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/data/models/277a2512-4c3f-49f5-9007-8f939124be51
-Author: abnc,def,zzhzozozoz
-Reference: []
+Link: https://aisquare.oss-us-east-1.aliyuncs.com/data/models/f5c62490-3138-4b89-a1fe-daa85f0742fa
+USLink: https://aisquare.oss-us-east-1.aliyuncs.com/data/models/f5c62490-3138-4b89-a1fe-daa85f0742fa
+CNLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/data/models/f5c62490-3138-4b89-a1fe-daa85f0742fa
+Author: def,zzhzozozoz,dddd
+Reference:
+    - workflows/deepks-flow
 ImageLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/AIS-Square/models/test-model-us/20221108-154034.jpeg
 ImageName: 20221108-154034.jpeg
-LinkFileName: Au-PBE-model.pb
+LinkFileName: ali-k8s.json
 readmename: readme.md
-licence: LGPL-3.0
+licence: MIT
