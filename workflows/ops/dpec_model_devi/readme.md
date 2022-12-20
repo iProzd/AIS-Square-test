@@ -1,4 +1,4 @@
-**Name** : dpec.workflow.modeldevi+test
+**Name** : dpec.workflow.modeldevi
 
 **Input :** 
 
