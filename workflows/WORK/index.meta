@@ -1,0 +1,13 @@
+Link: aaa.bbb.com
+USLink: ""
+CNLink: ""
+Author: lll,sss,qqq
+Reference:
+    - datasets/LiGePS-SSE-PBE
+    - models/KCl-molten-model
+    - workflows/deepks-flow
+ImageLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/AIS-Square/workflows/WORK/WX20221020-104523@2x.png
+ImageName: WX20221020-104523@2x.png
+LinkFileName: ""
+readmename: test.md
+licence: LGPL-3.0
