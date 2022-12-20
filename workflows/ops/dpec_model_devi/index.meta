@@ -4,6 +4,7 @@ CNLink: ""
 Author: Chengqian Zhang,Yongbin Zhuang, zx
 Reference:
   - workflows/instances/dpec
+  - workflows/instances/test-flowf
 ImageLink: ""
 ImageName: ""
 LinkFileName: ""
