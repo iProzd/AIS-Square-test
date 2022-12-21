@@ -1,0 +1,13 @@
+Link: https://aisquare.oss-us-east-1.aliyuncs.com/data/datasets/67549c47-7eb8-4c30-b96a-8100e7991b53
+USLink: https://aisquare.oss-us-east-1.aliyuncs.com/data/datasets/67549c47-7eb8-4c30-b96a-8100e7991b53
+CNLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/data/datasets/67549c47-7eb8-4c30-b96a-8100e7991b53
+Author: vvv
+Reference:
+    - datasets/AlMgCu-full-consentration
+    - datasets/H2O-Phase-Diagram
+    - models/test-model
+ImageLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/AIS-Square/datasets/test-datasetg/QQ20220727-161905@2x.png
+ImageName: QQ20220727-161905@2x.png
+LinkFileName: puppeteer-main.zip
+readmename: readme.md
+licence: Apache-2.0
