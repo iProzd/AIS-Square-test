@@ -1,0 +1,13 @@
+Link: https://github.com/Migooooooo/AIS-Square-test
+USLink: ""
+CNLink: ""
+Author: zx
+Reference:
+    - models/H2O-SCAN0-model
+    - datasets/H2O-Phase-Diagram
+    - workflows/instances/deepks-flow
+ImageLink: ""
+ImageName: ""
+LinkFileName: ""
+readmename: 测试用.md
+licence: MIT
