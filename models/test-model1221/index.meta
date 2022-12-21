@@ -1,0 +1,11 @@
+Link: https://aisquare.oss-us-east-1.aliyuncs.com/data/models/6aa1f6ad-b076-4ebb-abc2-30132120f96e
+USLink: https://aisquare.oss-us-east-1.aliyuncs.com/data/models/6aa1f6ad-b076-4ebb-abc2-30132120f96e
+CNLink: https://aisquare-zjk.oss-cn-zhangjiakou.aliyuncs.com/data/models/6aa1f6ad-b076-4ebb-abc2-30132120f96e
+Author: ZX
+Reference:
+    - datasets/In2Se3-2D-dpgen
+ImageLink: ""
+ImageName: ""
+LinkFileName: project_2.csv
+readmename: 测试用.md
+licence: MIT
